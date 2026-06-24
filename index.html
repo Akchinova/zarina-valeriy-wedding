@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Куда | jаан изÿ айдыҥ 1 кÿни</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Алтайский орнамент сверху -->
+    <div class="ornament-top"></div>
+
+    <!-- Аудио плеер -->
+    <audio id="bgMusic" loop>
+        <source src="media/music.mp3" type="audio/mpeg">
+    </audio>
+    <button id="musicToggle" class="music-btn" title="Включить/выключить музыку">
+        🎵
+    </button>
+
+    <!-- Главный экран -->
+    <header class="hero">
+        <div class="mountain-bg"></div>
+        <div class="hero-content">
+            <div class="ornament-divider">
+                <span class="ornament-symbol">❋</span>
+            </div>
+
+            <p class="pre-title">Кудага алдырттып турубыс!</p>
+
+            <h1 class="main-title">Валерий <span class="amp">ла</span> Зарина</h1>
+            <p class="surname">Юнчаковтор</p>
+
+            <div class="ornament-divider">
+                <span class="ornament-symbol">❋</span>
+            </div>
+
+            <p class="date-main">2026 jылдыҥ, jаан изÿ айдыҥ 1 кÿнинде</p>
+            <p class="location-main">Чибилÿ jуртта</p>
+        </div>
+    </header>
+
+    <!-- Приветственный текст -->
+    <section class="welcome-text">
+        <div class="ornament-side left"></div>
+        <div class="ornament-side right"></div>
+        <p class="welcome-intro">Кару тӧрӧгӧндӧр!</p>
+        <p class="welcome-text-main">Бистиҥ кудага келип, курсагыс амзап, кожо jыргап, jолысты ачсын деп кÿÿнзеп турубыс!</p>
+        <p class="welcome-date">01.07.2026</p>
+    </section>
+
+    <!-- Календарь -->
+    <section class="calendar-section">
+        <div class="calendar-container">
+            <h3 class="calendar-month">jаан изÿ ай</h3>
+            <div class="calendar-weekdays">
+                <span>пн</span>
+                <span>вт</span>
+                <span>ср</span>
+                <span>чт</span>
+                <span>пт</span>
+                <span>сб</span>
+                <span>вс</span>
+            </div>
+            <div class="calendar-days">
+                <span class="day-empty"></span>
+                <span class="day-empty"></span>
+                <span class="day special-day">1</span>
+                <span class="day">2</span>
+                <span class="day">3</span>
+                <span class="day">4</span>
+                <span class="day">5</span>
+                <span class="day">6</span>
+                <span class="day">7</span>
+                <span class="day">8</span>
+                <span class="day">9</span>
+                <span class="day">10</span>
+                <span class="day">11</span>
+                <span class="day">12</span>
+                <span class="day">13</span>
+                <span class="day">14</span>
+                <span class="day">15</span>
+                <span class="day">16</span>
+                <span class="day">17</span>
+                <span class="day">18</span>
+                <span class="day">19</span>
+                <span class="day">20</span>
+                <span class="day">21</span>
+                <span class="day">22</span>
+                <span class="day">23</span>
+                <span class="day">24</span>
+                <span class="day">25</span>
+                <span class="day">26</span>
+                <span class="day">27</span>
+                <span class="day">28</span>
+                <span class="day">29</span>
+                <span class="day">30</span>
+                <span class="day">31</span>
+            </div>
+            <div class="calendar-heart">
+                <span>❋</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Таймер -->
+    <section class="timer-section">
+        <h2 class="section-title">Байрамга арткан ӧй:</h2>
+        <div class="countdown">
+            <div class="time-block">
+                <span id="days" class="time-number">00</span>
+                <span class="time-label">кÿн</span>
+            </div>
+            <div class="time-block">
+                <span id="hours" class="time-number">00</span>
+                <span class="time-label">саат</span>
+            </div>
+            <div class="time-block">
+                <span id="minutes" class="time-number">00</span>
+                <span class="time-label">минут</span>
+            </div>
+            <div class="time-block">
+                <span id="seconds" class="time-number">00</span>
+                <span class="time-label">секунд</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Место проведения -->
+    <section class="venue-section">
+        <h2 class="section-title">Байрам болотон jери:</h2>
+        <div class="venue-card">
+            <div class="venue-icon">🏔️</div>
+            <h3>Кафе «Лебедь»</h3>
+            <p>Чибилÿ jуртта</p>
+            <p class="venue-time">Башталар ӧйи: 14:00</p>
+        </div>
+    </section>
+
+    <!-- Пожелания -->
+    <section class="wishes-section">
+        <h2 class="section-title">Кÿн-санааларыс</h2>
+        <div class="wishes-card">
+            <p>Jаҥы биле тӧзӧп јаткан байрамыска келгенерге коркышту сÿÿнерис! </p>
+            <p>Јӱрегистиҥ от-jалбыжын бисле кожо ӱлежип, сÿÿнчибисти кӧптӧдип, </p>
+            <p>бу кÿнде бисле кожо болзын деп кӱндӱлеп, кычырып турубыс! ️</p>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="ornament-divider">
+            <span class="ornament-symbol">❋</span>
+        </div>
+        <p class="footer-names">Валерий ла Зарина</p>
+        <p class="footer-date">01.07.2026</p>
+    </footer>
+
+    <!-- Алтайский орнамент снизу -->
+    <div class="ornament-bottom"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
